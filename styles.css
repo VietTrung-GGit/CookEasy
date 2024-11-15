@@ -4,3 +4,18 @@
     width:700px;
     font-size: 25px;
 }
+body{
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat; /*the site will automatically repeat the background if it doesnt fit the space)*/
+    background-position: center;
+    background-attachment: fixed; /*where the image would stay*/
+    background-size: cover; /*background takes up the entire space*/
+
+}
+
+hr{
+    border: 3px dashed rgb(123, 0, 255);
+}
+p{
+    font-size:18px;
+}
