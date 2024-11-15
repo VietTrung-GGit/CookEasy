@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thought for Food</title>
+    <link rel="icon" href="chicken.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="title">
+        <b><h1>Welcome to Thought for Food!</h1></b>
+        <u><i><h3>Let us make cooking easier</h3></i></u>
+    </div>
+    <hr>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="test.html">Start</a></li>
+            <li><a href="infoweb.html">Web Info</a></li>
+            <li><a href="infous.html">About Us</a></li>
+        </ul>
+    <hr>
+    <h2>What do you fancy today?</h2>
+    <select id="Selector" >
+        <option>Nothing</option>
+        <option value="images/pink-dragon-fruit-smoothie-1.jpeg">Dragonfruit Smoothie</option>
+        <option value="images/shamrock-smoothie-1.jpeg">Shamrock Smoothie</option>
+        <option value="images/best-vegan-matcha-latte-1.jpeg">Vegan Matcha</option>
+        <option value="images/tiramisu.jpg">Tiramisu</option>
+        <option value="images/pannacotta.jpg">Panna Cotta</option>
+    </select>
+    <br>
+    <img id="displayImage" src="images/" alt="Selected Image" style="width:300px;height:auto;">
+    <b><div class="display" id="displayText"></div></b>
+    <div class= "display" id="displayDesc"></div>
+    <b><h2>Ingredients</h2></b>
+    <div class="display2" id="displayIng"></div>
+    <b><h2>Steps</h2></b>
+    <div class="display2" id="displaySteps"></div>
+    <script src="script.js"></script>
+</body>
+</html>
