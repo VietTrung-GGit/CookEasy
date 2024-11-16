@@ -3,6 +3,20 @@ document.getElementById('Selector').addEventListener('change', function() {
     document.getElementById('displayImage').src = selectedImage;
 });
 
+
+document.getElementById('SelectMeal').addEventListener('change', function() {
+    var selectedMeal = document.getElementById("SelectMeal");
+    var meal = selectedMeal.options[selectedMeal.selectedIndex].text;
+    if (meal != "Dessert")
+    {
+        document.getElementById('Selector').style.visibility='hidden';
+    }
+    else if (meal == "Dessert")
+        {
+            document.getElementById('Selector').style.visibility='visible';
+        }
+});
+
 document.getElementById('Selector').addEventListener('change',function() {
     var select = document.getElementById("Selector");
     var text = select.options[select.selectedIndex].text;
